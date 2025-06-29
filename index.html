@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script>
+    fetch("navbar.html")
+      .then((res) => res.text())
+      .then((data) => {
+        document.getElementById("navbar").innerHTML = data;
+      });
+  </script>
+</head>
+
+<body>
+  <!--Navbar Start -->
+  <div id="navbar"></div>
+  <!-- Navbar END -->
+
+  <!-- Carousel Start -->
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="height: 100vh; position: relative;">
+        <img src="./images/carousel.jpg" class="d-block w-100 h-100" alt="Banner Image" style="object-fit: cover;">
+
+        <!-- Text Block -->
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-start text-white px-4">
+          <div class="container content">
+            <div class="row">
+              <div class="col-lg-6 col-md-8 col-12">
+                <h1 class="display-4 fw-bold text-start pb-3">A Taste of New Bharat Join Our Program Today</h1>
+                <p class="lead fw-normal text-start">Learn skills. Get certified. Boost your career. we believe in the
+                  power of
+                  great Tea
+                  like Chai Jaisa Aap Chahe with beverage and high quality of fast food. Our journey began with. </p>
+                <div class="mt-5 text-start">
+                  <a href="#" class="btn-lg me-2 mb-2 readmorebutton">Read More</a>
+                  <a href="#" class="btn-lg mb-2 applynowbutton">Apply Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Carousel END -->
+
+  <!-- Section 1 Start-->
+  <section class="featured-section py-5">
+    <div class="container text-center">
+      <h5 class="mb-5">As Featured In:</h5>
+      <div class="row justify-content-center align-items-center gx-4 gy-4">
+        <div class="col-4 col-sm-2">
+          <i class="bi bi-basket fs-1"></i>
+        </div>
+        <div class="col-4 col-sm-2">
+          <i class="bi bi-airplane-fill fs-1"></i>
+        </div>
+        <div class="col-4 col-sm-2">
+          <i class="bi bi-border-left fs-1"></i>
+        </div>
+        <div class="col-4 col-sm-2">
+          <i class="bi bi-badge-8k fs-1"></i>
+        </div>
+        <div class="col-4 col-sm-2">
+          <i class="bi bi-badge-wc-fill fs-1"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section 1 END -->
+
+  <!-- Section 2 Start -->
+  <section class="what-i-do ">
+    <div class="container">
+      <div class="text-center mb-5 limited-width">
+        <h2 class="fw-medium pt-4 pb-3">What I Do</h2>
+        <p class="text-muted fw-medium">I provide various services to help you achieve success in your goals. Here's a
+          quick
+          overview of what I offer bene fit of of doing things.</p>
+      </div>
+
+      <div class="row text-center pe-2 ps-2 text-light">
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="bg-white shadow pt-5 pb-5 paddingdiv backgorund">
+            <h2 class="pb-2 text-start">I Coach.</h2>
+            <p class="text-start pb-3"> <span> Learn build crack it.</span><br>1
+              responsive and modern websites using and frameworks like Bootstrap and click modern websites using and
+              frameworks like using with It Bootstrap.</p>
+            <div class="text-start">
+              <a href="#" class="btn btn-primary allbutton fw-semibold">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="bg-white shadow pt-5 pb-5 paddingdiv backgorund">
+            <h2 class="pb-2 text-start">I Speak.</h2>
+            <p class="text-start pb-3"> <span> Learn build crack it.</span><br>1
+              responsive and modern websites using and frameworks like Bootstrap and click modern websites using and
+              frameworks like using with It Bootstrap.</p>
+            <div class="text-start">
+              <a href="#" class="btn btn-primary allbutton fw-semibold">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="bg-white shadow pt-5 pb-5 paddingdiv backgorund">
+            <h2 class="pb-2 text-start">I Write.</h2>
+            <p class="text-start pb-3"> <span> Learn build crack it.</span><br>1
+              responsive and modern websites using and frameworks like Bootstrap and click modern websites using and
+              frameworks like using with It Bootstrap.</p>
+            <div class="text-start">
+              <a href="#" class="btn btn-primary allbutton fw-semibold">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+  <!-- Section 2 END -->
+
+  <!-- Section 3 Start -->
+  <section class="what-i-do">
+    <div class="container ">
+      <div class="row text-light pe-2 ps-2 align-items-stretch ">
+        <!-- First Column -->
+        <div class="col-12 col-md-4 mb-4 text-dark ">
+          <div class="bg-white pt-3 pb-3 paddingdiv1 backgorund1 h-100 backgorund3">
+            <h1 class="pb-2 text-start"> <span>Need</span><br> Advice?.</h1>
+            <p class="text-start pb-3">
+              Build your path. Tailored one-on-one coaching to help you define and crush your career goals using
+              real-world techniques and strategies.
+            </p>
+            <div class="text-start">
+              <a href="#" class="text-light allbutton1 call fw-semibold">Call us</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Column -->
+        <div class="col-12 col-md-8 mb-4 text-dark ">
+          <div class="pt-5   backgorund1 h-100 backgorund3">
+            <div class="row d-flex flex-column-reverse flex-md-row">
+              <div
+                class="col-12 col-md-4 d-flex flex-column align-items-center justify-content-center mb-0 mb-md-n5 icons">
+                <i class="bi bi-balloon-fill icon1"></i>
+                <i class="bi bi-bank2 icon2"></i>
+                <i class="bi bi-water icon3"></i>
+              </div>
+
+
+              <div class="col-12 col-md-8 pb-5 paddingdiv">
+                <h2 class="pb-2 text-start">My e-Books & Courses.</h2>
+                <p class="text-start pb-3">
+                  From concept to code.
+                  I specialize in developing fully responsive, accessible, and user-focused applications using
+                  Bootstrap, and modern JavaScript frameworks.Checking the list of the technical task of the
+                  communication in it to configure.
+                </p>
+                <div class="text-start mt-4">
+                  <a href="#" class="text-light allbutton1 call fw-semibold">Read More</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section 3 END -->
+
+  <!-- Section 4 Start -->
+  <section class="hero-image-right mt-4">
+    <img src="./images/image2.jpg" alt="Hero Image">
+
+    <div class="container h-100 d-flex align-items-center justify-content-end">
+      <div class="text-box">
+        <h1 class="display-4 fw-bold text-start mb-5">Testimonials</h1>
+        <p class="lead text-start fw-semibold">
+          Having experience in the metal and badge sector for more than 30 years, We have a thorough understanding of
+          what makes fine craftsmanship stand out performance in the manufacturing of Badges.
+        </p>
+        <p class="text-start mt-4">_______</p>
+        <h4 class="text-start mt-5">Check Works</h4>
+      </div>
+    </div>
+  </section>
+  <!-- Section 4 END -->
+
+  <!-- Section 5 Start -->
+  <section class="what-i-do imagepadding">
+    <div class="container">
+      <div class="row text-light pe-2 ps-2 align-items-stretch gx-0">
+
+        <!-- Left Column -->
+        <div class="col-12 col-md-7 mb-4 text-dark">
+          <div class="bg-white h-100">
+            <h1 class="pb-3 pt-5 ps-5 text-start">My Story</h1>
+            <p class="text-start pb-3 pe-5 ps-5 fw-semibold">
+              Our focus on the needs of our customers is what makes BadgeMaker unique. We collaborate with you to
+              realise your ideas rather than merely producing goods. Our committed design staff collaborates closely
+              with customers to produce pieces that honour your pride, mission, and brand. We provide scalable solutions
+              that are customised to meet your specific demands, whether you require volume production or a sample.
+              We provide metal cufflinks in addition to our main items, which add style and professionalism to formal
+              attire and uniforms. Our cufflinks are elegant, long-lasting, and customisable, making them ideal for
+              personal use, branding, or gifting.We collaborate with you to realise your ideas rather than merely
+              producing goods. Our committed design staff collaborates closely with customers to produce pieces that
+              honour your pride, mission, and brand. We provide scalable solutions that are customised to meet your
+              specific demands, whether you require volume production or a sample.
+            </p>
+            <p class="text-start pb-3 pe-5 ps-5 fw-semibold">Our committed design staff collaborates closely with
+              customers to produce pieces that honour your pride, mission, and brand. Our cufflinks are elegant,
+              long-lasting, and customisable, making them ideal for personal use, branding, or gifting. We provide
+              scalable solutions that are customised to meet your specific demands, whether you require volume
+              production or a sample.Our committed design staff collaborates closely with customers to produce pieces
+              that honour your pride, mission, and brand. Our cufflinks are elegant, long-lasting, and customisable,
+              making them ideal for personal use, branding, or gifting.</p>
+            <div class="text-start p-5">
+              <a href="#" class="text-light allbutton1 call fw-semibold">Discover Our Story</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-12 col-md-5 mb-4 text-dark">
+          <div class="h-100 w-100 overflow-hidden">
+            <img src="./images/image3.jpg" alt="Descriptive alt text" class="w-100 h-100" style="object-fit: cover;" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Section 5 END -->
+
+  <!-- Section 6 Start -->
+  <section class="bg-section">
+    <div class="container py-5">
+      <div class="row mt-5">
+        <div class="col-12 text-center text-md-start">
+          <h1 class="fw-semibold text-center text-light mb-5 heading1 ">Let Me Help You Overshoot Your <br> <span> Goals
+              in the Right Ways.</span></h1>
+          <div class="text-center text-light text-decoration-none backgorundtra mt-5 pt-4">
+            <a href="" class="text-light text-decoration-none start-now">Start Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section 6 END -->
+  <section class="container-fluid">
+    <div class="container text-center">
+      <div class="row align-items-start pt-4 pb-4">
+        <div class="col text-start pt">
+          <h6> Copyright © 2025 Coach | <span class="code"> Code</span></h6>
+        </div>
+        <div class="col text-end">
+          <h6>Powered by Coach</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
